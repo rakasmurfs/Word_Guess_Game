@@ -63,26 +63,6 @@ function restartGame()  //start anew!
     }
 function getItem()
     {
-
-
-        //push selected word characters into an array
- 
-     //   for (i=0; i < selectedWord.length; i++)
-       //     {
-         //       var x = selectedWord.charAt(i);
-           //     selectedWordArr.push(x);
-          //  }
-
-
-         // display as "_"
-       // for (let i = 0; i < selectedWordArr.length; i++) 
-         //   {
-           //     blankSelectedWordArr.push("_ ");
-            //    document.getElementById("wordGuess").append(blankSelectedWordArr[i]) ;
-           // }
-
-
-
         document.onkeypress = function(keyPressed)
             { //reads key that is pressed and stores it in lettersHit
                 var lettersHit="";
