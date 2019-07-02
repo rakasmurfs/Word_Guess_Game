@@ -67,19 +67,19 @@ function getItem()
 
         //push selected word characters into an array
  
-        for (i=0; i < selectedWord.length; i++)
-            {
-                var x = selectedWord.charAt(i);
-                selectedWordArr.push(x);
-            }
+     //   for (i=0; i < selectedWord.length; i++)
+       //     {
+         //       var x = selectedWord.charAt(i);
+           //     selectedWordArr.push(x);
+          //  }
 
 
          // display as "_"
-        for (let i = 0; i < selectedWordArr.length; i++) 
-            {
-                blankSelectedWordArr.push("_ ");
-                document.getElementById("wordGuess").append(blankSelectedWordArr[i]) ;
-            }
+       // for (let i = 0; i < selectedWordArr.length; i++) 
+         //   {
+           //     blankSelectedWordArr.push("_ ");
+            //    document.getElementById("wordGuess").append(blankSelectedWordArr[i]) ;
+           // }
 
 
 
@@ -149,7 +149,7 @@ function getItem()
     }
 
     
-
+newGame();
 getItem();
 
 document.getElementById("restart").onclick=function(){restartGame()};
